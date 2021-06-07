@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>A Simple Quiz</h1>
+  <fieldset id="my-fieldset">
+    <legend>Question</legend>
+    <form>
+      <p id="question">1. Kangaroos keep food in their pouches next to their children.</p>
+      <div>
+        <input type="radio" name="option" id="option1">
+        <label for="option1">True</label>
+      </div>
+      <div>
+        <input type="radio" name="option" id="option2">
+        <label for="option2">False</label>
+      </div>
+      <div class="btn-div">
+        <button type="submit" id="submit-btn">Next</button>
+      </div>
+    </form>
+  </fieldset>
+
+  <div id="score">
+    <h1>Your Score</h1>
+    <h3>100</h3>
+  </div>
+
+  <div id="warning"></div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

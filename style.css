@@ -1,0 +1,43 @@
+body {
+  padding: 5%;
+  background-color: lightgray;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+form {
+  text-align: left;
+}
+
+fieldset {
+  width: 50%;
+  margin-left: 24%;
+  border-radius: 8px;
+}
+
+fieldset legend {
+  font-size: 2rem;
+}
+
+input {
+  margin: 0.75rem;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+#warning {
+  color: red;
+  font-size: 2rem;
+}
+
+#score {
+  display: none;
+}
+
+.btn-div {
+  width: 100%;
+  text-align: center;
+}
