@@ -1,0 +1,22 @@
+{
+  "name": "leaning-javascript-interns",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/aab3ebfe-8622-4313-b2dd-9ee67aedf432/deploy-status)](https://app.netlify.com/sites/builtdesign-interns/deploys)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijeet-sonaje/leaning-javascript-interns.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhijeet-sonaje/leaning-javascript-interns/issues"
+  },
+  "homepage": "https://github.com/abhijeet-sonaje/leaning-javascript-interns#readme",
+  "dependencies": {
+    "ts-node": "^10.0.0"
+  }
+}
